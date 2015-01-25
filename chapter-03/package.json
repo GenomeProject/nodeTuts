@@ -1,27 +1,27 @@
 {
+  "author": "",
   "name": "censorify2",
   "version": "0.1.0",
   "description": "censorify2",
   "main": "censorify2",
-  "dependencies": {},
-  "engines": {
-  	"node": "*"
-  	},
-  "scripts": {
-    "test": "echo \"Error: no test specified! Configure in package.json\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/GenomeProject/nodeTuts/tree/master/chapter-03"
   },
   "keywords": [
     "censor",
-    "words"
+    "words",
     "node.js",
     "eclipse",
     "nodeclipse"
   ],
-  "author": "",
+  "dependencies": {},
+  "engines": {
+  	"node": "*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified! Configure in package.json\" && exit 1"
+  },
   "license": "MIT",
   "readmeFilename": "README.md"
 }
