@@ -10,8 +10,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified! Configure in package.json\" && exit 1"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GenomeProject/nodeTuts/tree/master/chapter-03"
+  },
   "keywords": [
+    "censor",
+    "words"
     "node.js",
     "eclipse",
     "nodeclipse"
