@@ -14,22 +14,22 @@
 8 silly mapToRegistry uri https://registry.npmjs.org/-/user/org.couchdb.user:genomeproject
 9 verbose request uri https://registry.npmjs.org/-/user/org.couchdb.user:genomeproject
 10 verbose request new user, so can't send auth
-11 info attempt registry request try #1 at 05:09:05
-12 verbose request id e996288fd3fae73b
+11 info attempt registry request try #1 at 05:25:44
+12 verbose request id a76240370e213e84
 13 verbose etag "6-0d09a57b2409443531f15b7d69165979"
 14 http request GET https://registry.npmjs.org/-/user/org.couchdb.user:genomeproject
 15 http 304 https://registry.npmjs.org/-/user/org.couchdb.user:genomeproject
 16 silly get cb [ 304,
-16 silly get   { date: 'Sun, 25 Jan 2015 05:09:27 GMT',
+16 silly get   { date: 'Sun, 25 Jan 2015 05:26:13 GMT',
 16 silly get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
 16 silly get     etag: '"6-0d09a57b2409443531f15b7d69165979"',
 16 silly get     'cache-control': 'max-age=60',
 16 silly get     'accept-ranges': 'bytes',
 16 silly get     via: '1.1 varnish',
-16 silly get     'x-served-by': 'cache-ams4123-AMS',
+16 silly get     'x-served-by': 'cache-ams4122-AMS',
 16 silly get     'x-cache': 'MISS',
 16 silly get     'x-cache-hits': '0',
-16 silly get     'x-timer': 'S1422162566.432767,VS0,VE608',
+16 silly get     'x-timer': 'S1422163572.833287,VS0,VE376',
 16 silly get     'content-length': '0',
 16 silly get     'keep-alive': 'timeout=10, max=50',
 16 silly get     connection: 'Keep-Alive' } ]
@@ -40,74 +40,75 @@
 21 silly mapToRegistry uri https://registry.npmjs.org/censorify2
 22 verbose request uri https://registry.npmjs.org/censorify2
 23 verbose request no auth needed
-24 info attempt registry request try #1 at 05:09:06
-25 http request GET https://registry.npmjs.org/censorify2
-26 http 200 https://registry.npmjs.org/censorify2
-27 silly get cb [ 200,
-27 silly get   { date: 'Sun, 25 Jan 2015 05:09:27 GMT',
-27 silly get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-27 silly get     etag: '"CU6J8F3GU0GPC2IARVA6GK8YA"',
-27 silly get     'content-type': 'application/json',
-27 silly get     'cache-control': 'max-age=60',
-27 silly get     'content-length': '3423',
-27 silly get     'accept-ranges': 'bytes',
-27 silly get     via: '1.1 varnish',
-27 silly get     age: '0',
-27 silly get     'x-served-by': 'cache-ams4142-AMS',
-27 silly get     'x-cache': 'HIT',
-27 silly get     'x-cache-hits': '1',
-27 silly get     'x-timer': 'S1422162567.184917,VS0,VE624',
-27 silly get     vary: 'Accept',
-27 silly get     'keep-alive': 'timeout=10, max=50',
-27 silly get     connection: 'Keep-Alive' } ]
-28 silly mapToRegistry name censorify2/-rev/9-9091b816896faf435aeb6d464e7f0227
-29 silly mapToRegistry using default registry
-30 silly mapToRegistry registry https://registry.npmjs.org/
-31 silly mapToRegistry uri https://registry.npmjs.org/censorify2/-rev/9-9091b816896faf435aeb6d464e7f0227
-32 verbose request uri https://registry.npmjs.org/censorify2/-rev/9-9091b816896faf435aeb6d464e7f0227
-33 verbose request sending authorization for write operation
-34 info attempt registry request try #1 at 05:09:07
-35 http request PUT https://registry.npmjs.org/censorify2/-rev/9-9091b816896faf435aeb6d464e7f0227
-36 http 403 https://registry.npmjs.org/censorify2/-rev/9-9091b816896faf435aeb6d464e7f0227
-37 verbose headers { date: 'Sun, 25 Jan 2015 05:09:28 GMT',
-37 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-37 verbose headers   'content-type': 'application/json',
-37 verbose headers   'cache-control': 'max-age=60',
-37 verbose headers   'content-length': '196',
-37 verbose headers   'accept-ranges': 'bytes',
-37 verbose headers   via: '1.1 varnish',
-37 verbose headers   'x-served-by': 'cache-ams4144-AMS',
-37 verbose headers   'x-cache': 'MISS',
-37 verbose headers   'x-cache-hits': '0',
-37 verbose headers   'x-timer': 'S1422162567.976689,VS0,VE183',
-37 verbose headers   'keep-alive': 'timeout=10, max=50',
-37 verbose headers   connection: 'Keep-Alive' }
-38 verbose request invalidating C:\Users\Tahir\AppData\Roaming\npm-cache\registry.npmjs.org\censorify2 on PUT
-39 error owner mutate Failed to update package metadata
-40 verbose stack Error: forbidden user: genomeproject not authorized to modify censorify2
-40 verbose stack Changed: time.modified "2014-08-02T13:05:53.379Z" -> "2015-01-25T05:12:24.942Z"
-40 verbose stack Added: maintainers.1: censorify2,-rev,9-9091b816896faf435aeb6d464e7f0227
-40 verbose stack     at CachingRegistryClient.<anonymous> (C:\Users\Tahir\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-client\lib\request.js:254:14)
-40 verbose stack     at Request._callback (C:\Users\Tahir\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-client\lib\request.js:178:14)
-40 verbose stack     at Request.self.callback (C:\Users\Tahir\AppData\Roaming\npm\node_modules\npm\node_modules\request\request.js:373:22)
-40 verbose stack     at Request.emit (events.js:98:17)
-40 verbose stack     at Request.<anonymous> (C:\Users\Tahir\AppData\Roaming\npm\node_modules\npm\node_modules\request\request.js:1318:14)
-40 verbose stack     at Request.emit (events.js:117:20)
-40 verbose stack     at IncomingMessage.<anonymous> (C:\Users\Tahir\AppData\Roaming\npm\node_modules\npm\node_modules\request\request.js:1266:12)
-40 verbose stack     at IncomingMessage.emit (events.js:117:20)
-40 verbose stack     at _stream_readable.js:943:16
-40 verbose stack     at process._tickCallback (node.js:419:13)
-41 verbose statusCode 403
-42 verbose pkgid censorify2
-43 verbose cwd C:\Users\Tahir\Documents\GitHub\nodeTuts\chapter-03
-44 error Windows_NT 6.1.7601
-45 error argv "node" "C:\\Users\\Tahir\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "owner" "add" "genomeproject" "censorify2"
-46 error node v0.10.33
-47 error npm  v2.3.0
-48 error code E403
-49 error forbidden user: genomeproject not authorized to modify censorify2
-49 error Changed: time.modified "2014-08-02T13:05:53.379Z" -> "2015-01-25T05:12:24.942Z"
-49 error Added: maintainers.1: censorify2,-rev,9-9091b816896faf435aeb6d464e7f0227
-50 error If you need help, you may report this error at:
-50 error     <http://github.com/npm/npm/issues>
-51 verbose exit [ 1, true ]
+24 info attempt registry request try #1 at 05:25:53
+25 verbose etag "CU6J8F3GU0GPC2IARVA6GK8YA"
+26 http request GET https://registry.npmjs.org/censorify2
+27 http 304 https://registry.npmjs.org/censorify2
+28 silly get cb [ 304,
+28 silly get   { date: 'Sun, 25 Jan 2015 05:26:13 GMT',
+28 silly get     server: 'Apache',
+28 silly get     via: '1.1 varnish',
+28 silly get     'last-modified': 'Sun, 25 Jan 2015 05:26:14 GMT',
+28 silly get     'cache-control': 'max-age=60',
+28 silly get     etag: '"CU6J8F3GU0GPC2IARVA6GK8YA"',
+28 silly get     age: '0',
+28 silly get     'x-served-by': 'cache-ams4134-AMS',
+28 silly get     'x-cache': 'HIT',
+28 silly get     'x-cache-hits': '1',
+28 silly get     'x-timer': 'S1422163573.588921,VS0,VE653',
+28 silly get     vary: 'Accept',
+28 silly get     'content-length': '0',
+28 silly get     'keep-alive': 'timeout=10, max=50',
+28 silly get     connection: 'Keep-Alive' } ]
+29 verbose etag https://registry.npmjs.org/censorify2 from cache
+30 silly mapToRegistry name censorify2/-rev/9-9091b816896faf435aeb6d464e7f0227
+31 silly mapToRegistry using default registry
+32 silly mapToRegistry registry https://registry.npmjs.org/
+33 silly mapToRegistry uri https://registry.npmjs.org/censorify2/-rev/9-9091b816896faf435aeb6d464e7f0227
+34 verbose request uri https://registry.npmjs.org/censorify2/-rev/9-9091b816896faf435aeb6d464e7f0227
+35 verbose request sending authorization for write operation
+36 info attempt registry request try #1 at 05:25:54
+37 http request PUT https://registry.npmjs.org/censorify2/-rev/9-9091b816896faf435aeb6d464e7f0227
+38 http 403 https://registry.npmjs.org/censorify2/-rev/9-9091b816896faf435aeb6d464e7f0227
+39 verbose headers { date: 'Sun, 25 Jan 2015 05:26:14 GMT',
+39 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+39 verbose headers   'content-type': 'application/json',
+39 verbose headers   'cache-control': 'max-age=60',
+39 verbose headers   'content-length': '196',
+39 verbose headers   'accept-ranges': 'bytes',
+39 verbose headers   via: '1.1 varnish',
+39 verbose headers   'x-served-by': 'cache-ams4132-AMS',
+39 verbose headers   'x-cache': 'MISS',
+39 verbose headers   'x-cache-hits': '0',
+39 verbose headers   'x-timer': 'S1422163574.516680,VS0,VE173',
+39 verbose headers   'keep-alive': 'timeout=10, max=50',
+39 verbose headers   connection: 'Keep-Alive' }
+40 verbose request invalidating C:\Users\Tahir\AppData\Roaming\npm-cache\registry.npmjs.org\censorify2 on PUT
+41 error owner mutate Failed to update package metadata
+42 verbose stack Error: forbidden user: genomeproject not authorized to modify censorify2
+42 verbose stack Changed: time.modified "2014-08-02T13:05:53.379Z" -> "2015-01-25T05:29:11.490Z"
+42 verbose stack Added: maintainers.1: censorify2,-rev,9-9091b816896faf435aeb6d464e7f0227
+42 verbose stack     at CachingRegistryClient.<anonymous> (C:\Users\Tahir\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-client\lib\request.js:254:14)
+42 verbose stack     at Request._callback (C:\Users\Tahir\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-client\lib\request.js:178:14)
+42 verbose stack     at Request.self.callback (C:\Users\Tahir\AppData\Roaming\npm\node_modules\npm\node_modules\request\request.js:373:22)
+42 verbose stack     at Request.emit (events.js:98:17)
+42 verbose stack     at Request.<anonymous> (C:\Users\Tahir\AppData\Roaming\npm\node_modules\npm\node_modules\request\request.js:1318:14)
+42 verbose stack     at Request.emit (events.js:117:20)
+42 verbose stack     at IncomingMessage.<anonymous> (C:\Users\Tahir\AppData\Roaming\npm\node_modules\npm\node_modules\request\request.js:1266:12)
+42 verbose stack     at IncomingMessage.emit (events.js:117:20)
+42 verbose stack     at _stream_readable.js:943:16
+42 verbose stack     at process._tickCallback (node.js:419:13)
+43 verbose statusCode 403
+44 verbose pkgid censorify2
+45 verbose cwd C:\Users\Tahir\Documents\GitHub\nodeTuts\chapter-03
+46 error Windows_NT 6.1.7601
+47 error argv "node" "C:\\Users\\Tahir\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "owner" "add" "genomeproject" "censorify2"
+48 error node v0.10.33
+49 error npm  v2.3.0
+50 error code E403
+51 error forbidden user: genomeproject not authorized to modify censorify2
+51 error Changed: time.modified "2014-08-02T13:05:53.379Z" -> "2015-01-25T05:29:11.490Z"
+51 error Added: maintainers.1: censorify2,-rev,9-9091b816896faf435aeb6d464e7f0227
+52 error If you need help, you may report this error at:
+52 error     <http://github.com/npm/npm/issues>
+53 verbose exit [ 1, true ]
