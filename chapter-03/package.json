@@ -1,6 +1,6 @@
 {
-  "owner": "genomeproject",
   "name": "censorify2",
+  "owner": "genomeproject",
   "version": "0.1.4",
   "description": "censorify2",
   "main": "censorify2",
