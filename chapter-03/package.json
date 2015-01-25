@@ -2,7 +2,7 @@
   "name": "censorify2",
   "version": "0.1.0",
   "description": "censorify2",
-  "main": "censorify2.js",
+  "main": "censorify2",
   "dependencies": {},
   "engines": {
   	"node": "*"
