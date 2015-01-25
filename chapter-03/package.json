@@ -1,0 +1,22 @@
+{
+  "name": "censorify2",
+  "version": "0.1.0",
+  "description": "censorify2",
+  "main": "censorify2.js",
+  "dependencies": {},
+  "engines": {
+  	"node": "*"
+  	},
+  "scripts": {
+    "test": "echo \"Error: no test specified! Configure in package.json\" && exit 1"
+  },
+  "repository": "",
+  "keywords": [
+    "node.js",
+    "eclipse",
+    "nodeclipse"
+  ],
+  "author": "",
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}
