@@ -1,9 +1,8 @@
 {
   "name": "censorifyMamun",
-  "owner": "genomeproject",
   "version": "0.1.4",
   "description": "censorify2",
-  "main": "censorify2",
+  "main": "censorifyMamun",
   "repository": {
     "type": "git",
     "url": "https://github.com/GenomeProject/nodeTuts/tree/master/chapter-03"
